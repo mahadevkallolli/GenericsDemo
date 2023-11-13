@@ -8,7 +8,7 @@ public class Demo4 {
         l.add("Garuda");
         l.add("Rocky");
         l.add("Reena");
-        //type-casting is compulsory in callections because we don't know type of element present inside the collections and collections can hold Heterogeneous object
+        //type-casting is compulsory in collections because we don't know type of element present inside the collections and collections can hold Heterogeneous object
         //String name=l.get(0);//compile time error:java: incompatible types: java.lang.Object cannot be converted to java.lang.String
         String name1= (String) l.get(0);
         String name2= (String) l.get(1);

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;//at the time of retrival not required to typecast because there is a guaranty for the type of element/object present in the String array&#10;        &quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;type-casting is compulsory in collections without generics&quot;">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/Demo4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,13 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699887819022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;type-casting is compulsory in collections without generics&quot;">
+      <created>1699888525443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699888525443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="&quot;StringArrayListDemo&quot;" />
     <MESSAGE value="&quot;//at the time of retrival not required to typecast because there is a guaranty for the type of element/object present in the String array&#10;        &quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;//at the time of retrival not required to typecast because there is a guaranty for the type of element/object present in the String array&#10;        &quot;" />
+    <MESSAGE value="&quot;type-casting is compulsory in collections without generics&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;type-casting is compulsory in collections without generics&quot;" />
   </component>
 </project>
