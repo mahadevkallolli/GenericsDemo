@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;type-casting is not required in collections also with generics&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/Test.java" afterDir="false" />
+    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;Polymorphism applicable only base type but not return type&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/OwnGenClasss/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/OwnGenClasss/OurOwnGenericsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/OwnGenClasss/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +51,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.com.GenericsDemo.OwnGenClasss.Test">
     <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.Demo3" />
       <module name="GenericsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.*" />
+          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,7 +70,7 @@
       <module name="GenericsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.*" />
+          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,20 +83,7 @@
       <module name="GenericsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringArrayListDemo" />
-      <module name="GenericsDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,7 +96,20 @@
       <module name="GenericsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.*" />
+          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.GenericsDemo.OwnGenClasss.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.OwnGenClasss.Test" />
+      <module name="GenericsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.GenericsDemo.OwnGenClasss.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Demo5WithGenerics" />
         <item itemvalue="Application.Demo4" />
         <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.StringArrayListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699890478299</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Polymorphism applicable only base type but not return type&quot;">
+      <created>1699897036848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699897036848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,6 +194,7 @@
     <MESSAGE value="&quot;//at the time of retrival not required to typecast because there is a guaranty for the type of element/object present in the String array&#10;        &quot;" />
     <MESSAGE value="&quot;type-casting is compulsory in collections without generics&quot;" />
     <MESSAGE value="&quot;type-casting is not required in collections also with generics&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;type-casting is not required in collections also with generics&quot;" />
+    <MESSAGE value="&quot;Polymorphism applicable only base type but not return type&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Polymorphism applicable only base type but not return type&quot;" />
   </component>
 </project>
