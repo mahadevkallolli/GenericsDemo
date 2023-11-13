@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="">
+    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;StringArrayListDemo&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StringArrayListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/StringArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StringArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/StringArrayListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1699884210022</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;StringArrayListDemo&quot;">
+      <created>1699887092819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699887092819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;StringArrayListDemo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;StringArrayListDemo&quot;" />
   </component>
 </project>

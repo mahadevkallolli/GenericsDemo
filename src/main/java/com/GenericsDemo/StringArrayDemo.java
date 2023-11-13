@@ -1,4 +1,4 @@
-package org.example;
+package com.GenericsDemo;
 
 public class StringArrayDemo {
     public static void main(String[] args) {

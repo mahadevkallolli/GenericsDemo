@@ -1,4 +1,4 @@
-package org.example;
+package com.GenericsDemo;
 
 import java.util.ArrayList;
 
@@ -11,7 +11,7 @@ public class StringArrayListDemo {
         l.add(1002);
         String name1=(String) l.get(0);
         String name2=(String) l.get(1);
-        String name3=(String) l.get(2);
+        //String name3=(String) l.get(2);//we cannot do this
         System.out.println(name1+"\n"+name2);
     }
 }
