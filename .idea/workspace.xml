@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;Number x = 100 generic class also&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/BoundedTypes/Test.java" afterDir="false" />
+    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;without bounded types&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/BoundedTypes/BoundedTypesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/BoundedTypes/Emp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +50,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.GenericsDemo.BoundedTypes.Test">
-    <configuration name="Demo5WithGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.Demo5WithGenerics" />
+  <component name="RunManager" selected="Application.BoundedTypesDemo">
+    <configuration name="BoundedTypesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.BoundedTypes.BoundedTypesDemo" />
       <module name="GenericsDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
+          <option name="PATTERN" value="com.GenericsDemo.BoundedTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundedTypesDemo" />
         <item itemvalue="Application.com.GenericsDemo.BoundedTypes.Test" />
         <item itemvalue="Application.NumberDemo" />
         <item itemvalue="Application.com.GenericsDemo.OwnGenClasss.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Demo5WithGenerics" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699970662242</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;without bounded types&quot;">
+      <created>1699972075149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699972075149</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,6 +217,7 @@
     <MESSAGE value="&quot;Polymorphism applicable only base type but not return type&quot;" />
     <MESSAGE value="&quot;we can create our own generic class also&quot;" />
     <MESSAGE value="&quot;Number x = 100 generic class also&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Number x = 100 generic class also&quot;" />
+    <MESSAGE value="&quot;without bounded types&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;without bounded types&quot;" />
   </component>
 </project>
