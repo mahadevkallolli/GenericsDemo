@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;without bounded types w.r.t class&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/BoundedTypes/BoundedTypesWRTInterface.java" afterDir="false" />
+    <list default="true" id="44363738-9c9f-471f-8210-c5edc36c236f" name="Changes" comment="&quot;Test&lt;T extends  Number&amp;Runnable&gt;&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/GenericsDemo/MixedBoundedTpessClassAndInterface/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +50,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BoundedTypesWRTInterface">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BoundedTypesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.BoundedTypes.BoundedTypesDemo" />
       <module name="GenericsDemo" />
@@ -89,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.MixedBoundedTpessClassAndInterface.Test" />
+      <module name="GenericsDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.GenericsDemo.MixedBoundedTpessClassAndInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.GenericsDemo.BoundedTypes.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.BoundedTypes.Test" />
       <module name="GenericsDemo" />
@@ -102,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.GenericsDemo.OwnGenClasss.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.GenericsDemo.OwnGenClasss.Test" />
-      <module name="GenericsDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.GenericsDemo.OwnGenClasss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BoundedTypesWRTInterface" />
         <item itemvalue="Application.BoundedTypesDemo" />
         <item itemvalue="Application.com.GenericsDemo.BoundedTypes.Test" />
         <item itemvalue="Application.NumberDemo" />
-        <item itemvalue="Application.com.GenericsDemo.OwnGenClasss.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699973161148</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;bounded types w.r.t interface&quot;">
+      <created>1699973599398</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699973599398</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,6 +233,8 @@
     <MESSAGE value="&quot;Number x = 100 generic class also&quot;" />
     <MESSAGE value="&quot;without bounded types&quot;" />
     <MESSAGE value="&quot;without bounded types w.r.t class&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;without bounded types w.r.t class&quot;" />
+    <MESSAGE value="&quot;bounded types w.r.t interface&quot;" />
+    <MESSAGE value="&quot;Test&lt;T extends  Number&amp;Runnable&gt;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Test&lt;T extends  Number&amp;Runnable&gt;&quot;" />
   </component>
 </project>
